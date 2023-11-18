@@ -4,13 +4,15 @@ import './Header.css';
 const Header = () => {
     return (
         <header className="header">
-            <h1 className="header__title">Welcome to My Website</h1>
-            <nav className="header__nav">
+            {/* Picture */}
+            <picture>
+                <img src="/pestel.svg" alt="Header" />
+            </picture>
+            <nav className="header_nav">
                 <ul className="header__nav-list">
-                    <li className="header__nav-item">Home</li>
-                    <li className="header__nav-item">About</li>
-                    <li className="header__nav-item">Services</li>
-                    <li className="header__nav-item">Contact</li>
+                    <li className="nav-item">Home</li>
+                    <li className="nav-item">About</li>
+                    <li className="nav-item">Contact</li>
                 </ul>
             </nav>
         </header>
