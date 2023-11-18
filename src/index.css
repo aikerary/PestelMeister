@@ -8,13 +8,17 @@
     --font-color: #011f4b;
     --font-color-negative: #fff;
     --font-family: 'News Cycle', sans-serif;
-    --font-size: 1rem;
-    --font-weight: 400;
-    --line-height: 1.6;
-    --border-radius: 0.25rem;
-    --transition: all 0.3s linear;
 }
 
 body{
   background-color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
 }
